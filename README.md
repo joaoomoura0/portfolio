@@ -1,5 +1,5 @@
 
-##  Status do Projeto
+## 🚧 Status do Projeto
 
  **Em desenvolvimento...**
 
@@ -8,4 +8,4 @@
 - HTML5
 - CSS3
 - JavaScript (puro)
-- [Figma](https://figma.com/) (para prototipação e design)
+- [Figma](https://figma.com/) (para prototipação e design) 
