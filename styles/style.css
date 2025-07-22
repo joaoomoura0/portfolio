@@ -170,6 +170,54 @@ button {
     justify-content: center;
 }
 
+
+
+
+.ferramentas {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.2rem;
+    margin-right: 0.1;
+    gap: 1rem;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+.vscode {
+    background-color: #1F2233;
+    width: 180px;
+    height: 44px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intellij {
+    background-color: #1F2233;
+    width: 130px;
+    height: 44px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
 footer {
     padding: 2rem;
     margin-top: 30rem;
