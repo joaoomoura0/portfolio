@@ -7,5 +7,5 @@
 
 - HTML5
 - CSS3
-- JavaScript (puro)
+- JavaScript
 - [Figma](https://figma.com/) (para prototipação e design) 
