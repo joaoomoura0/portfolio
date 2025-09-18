@@ -4,223 +4,72 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-header {
-    padding: 1.2% ;
-    margin-left: 10%;
-    margin-right: 1%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Jersey 25", sans-serif;
 }
 
 body {
     background-color: #101014;
     color: #FFFFFF;
-    font-family: "Jersey 25", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
-.nav-bar {
+header {
+    margin: 24px 0 18px 0;
     display: flex;
-    gap: 45px;
+    align-items: center;
+}
+
+nav ul {
+    margin-left: 5rem;
+    display: flex;
+    gap: 50px;
+}
+
+ nav a {
+    color:#FFFFFF;
+    text-decoration: none;
     font-size: 25px;
 }
 
-.nav-bar a {
-    color: #FFFFFF;
-    text-decoration: none;
+nav a:hover {
+    color: #130c9b;
 }
 
-.icons {
+.social-icons {
+    width: 100%;;
+}
+
+.social-icons ul {
+    margin-right: 2rem;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     gap: 40px;
 }
 
-.icons i {
-  font-size: 35px;
-  color: #b2b2b2;
+.social-icons i {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.social-icons i:hover {
+    color: #130c9b;
 }
 
 hr {
     background-color: #FFFFFF;
 }
 
-.tit-sub {
+.content {
     text-align: center;
+    margin: 80px auto 0 auto;
 }
 
-.tittle {
-    margin-top: 10rem;
-    font-size: 4rem;
-    letter-spacing: 0.1em;
+.title {
+    font-size: 60px;
 }
 
-.subtitulo {
-    font-size: 1rem;
-    padding-right: 16%;
-}
-
-.scroll {
-    text-align: center;
-    margin-top: 20rem;
+.subtitle {
     font-size: 15px;
-    color: #b2b2b2;
-}
 
-.sobre {
-    display: flex;
-    flex-direction: column;
-    padding-left: 5rem;
-}
-
-.tituloAbout {
-    padding-top: 15rem;
-    max-width: 28rem;
-    text-align: center;
-    font-size: 3rem;
-}
-
-.infoAbout {
-    padding-top: 0.2rem;
-    max-width: 28rem;
-    text-align: center;
-    font-size: 1rem;
-}
-
-button {
-    margin-top: 0.5rem;
-    width: 48px;    
-    height: 19px;   
-    margin-left: 17.5rem;
-    font-family: "Jersey 25", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #1F2233;
-    color: white;
-    font-size: 0.6rem;
-    border-radius: 15px;
-    cursor: pointer;
-    border-radius: none;
-
-}
-
-.sobre2 {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    margin-right: 15rem;
-
-}
-
-.tituloSobre {
-    padding-top: 2rem;
-    max-width: 28rem;
-    text-align: center;
-    font-size: 3rem;
-}
-
-.linguagens {
-    display: flex;
-    flex-direction: row;
-    padding-top: 0.2rem;
-    margin-right: 0.1;
-    gap: 1rem;
-    font-size: 1.5rem;
-}
-
-.html {
-    background-color: #1F2233;
-    width: 100px;
-    height: 44px;
-    border-radius: 15px;
-    text-align: center;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.css {
-    background-color: #1F2233;
-    width: 81px;
-    height: 44px;
-    border-radius: 15px;
-    text-align: center;
-    padding: 0;
-
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-}
-
-.js {
-    background-color: #1F2233;
-    width: 165px;
-    height: 44px;
-    border-radius: 15px;
-    text-align: center;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-
-.ferramentas {
-    display: flex;
-    flex-direction: row;
-    padding-top: 0.2rem;
-    margin-right: 0.1;
-    gap: 1rem;
-    font-size: 1.5rem;
-    padding-top: 0.5rem;
-}
-
-.vscode {
-    background-color: #1F2233;
-    width: 180px;
-    height: 44px;
-    border-radius: 15px;
-    text-align: center;
-    padding: 0;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.intellij {
-    background-color: #1F2233;
-    width: 130px;
-    height: 44px;
-    border-radius: 15px;
-    text-align: center;
-    padding: 0;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-
-
-
-
-
-
-
-footer {
-    padding: 2rem;
-    margin-top: 30rem;
-    display: flex;
-    justify-content: center;
 }
