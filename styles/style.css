@@ -82,7 +82,7 @@ hr {
 }
 
 .see-more {
-    margin-top: 25%;
+    margin-top: 25rem;
     text-align: center;
     letter-spacing: 3px;
 }
@@ -108,7 +108,7 @@ hr {
 }
 
 .sobre1 h2 {
-    margin: 10rem 0 0 10rem;
+    margin: 12rem 0 0 10rem;
     font-size: 50px;
     text-decoration: underline;
     letter-spacing: 3px;
@@ -201,4 +201,8 @@ footer {
 
 .social-icons-footer i:hover {
     color: #130c9b;
+}
+
+html {
+    scroll-behavior: smooth;
 }
