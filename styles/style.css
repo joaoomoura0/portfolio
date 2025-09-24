@@ -108,10 +108,16 @@ hr {
     text-align: center;
 }
 
-.tittle-works {
+.title-works {
+    margin-top: 50px;
     font-size: 50px;
     letter-spacing: 3px;
     text-decoration: underline;
+}
+
+.slides h3, .slides p {
+    margin: 10px;
+    letter-spacing: 2px;
 }
 
 .slider {
